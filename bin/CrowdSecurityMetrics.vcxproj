@@ -60,25 +60,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CrowdSecurityMetrics.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CrowdSecurityMetrics</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CrowdSecurityMetrics.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CrowdSecurityMetrics</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CrowdSecurityMetrics.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CrowdSecurityMetrics</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CrowdSecurityMetrics.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CrowdSecurityMetrics</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -102,7 +102,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -121,10 +121,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -132,28 +132,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>fltk\lib\Debug\fltkd.lib;comctl32.lib;ws2_32.lib;gdiplus.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opencv_world4100d.lib;asmjit.lib;
-c10.lib;
-cpuinfo.lib;
-dnnl.lib;
-fbgemm.lib;
-fmtd.lib;
-kineto.lib;
-libprotobuf-lited.lib;
-libprotobufd.lib;
-libprotocd.lib;
-microkernels-prod.lib;
-pthreadpool.lib;
-sleef.lib;
-torch_cpu.lib;
-torch.lib;
-XNNPACK.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib;C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ProjectDir)\fltk\lib\Debug\fltkd.lib;comctl32.lib;ws2_32.lib;gdiplus.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opencv_world4100d.lib;asmjit.lib;c10.lib;cpuinfo.lib;dnnl.lib;fbgemm.lib;fmtd.lib;kineto.lib;libprotobuf-lited.lib;libprotobufd.lib;libprotocd.lib;microkernels-prod.lib;pthreadpool.lib;sleef.lib;torch_cpu.lib;torch.lib;XNNPACK.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib;C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/Debug/CrowdSecurityMetrics.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/Debug/CrowdSecurityMetrics.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/Debug/CrowdSecurityMetrics.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/Debug/CrowdSecurityMetrics.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -162,7 +147,7 @@ XNNPACK.lib</AdditionalDependencies>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -181,10 +166,10 @@ XNNPACK.lib</AdditionalDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,12 +193,12 @@ sleef.lib;
 torch_cpu.lib;
 torch.lib;
 XNNPACK.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib;C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib;C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/Release/CrowdSecurityMetrics.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/Release/CrowdSecurityMetrics.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/Release/CrowdSecurityMetrics.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/Release/CrowdSecurityMetrics.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -222,7 +207,7 @@ XNNPACK.lib</AdditionalDependencies>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -241,10 +226,10 @@ XNNPACK.lib</AdditionalDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -253,12 +238,12 @@ XNNPACK.lib</AdditionalDependencies>
     </Midl>
     <Link>
       <AdditionalDependencies>fltk\lib\MinSizeRel\fltk.lib;comctl32.lib;ws2_32.lib;gdiplus.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib;C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib;C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/MinSizeRel/CrowdSecurityMetrics.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/MinSizeRel/CrowdSecurityMetrics.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/MinSizeRel/CrowdSecurityMetrics.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/MinSizeRel/CrowdSecurityMetrics.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -267,7 +252,7 @@ XNNPACK.lib</AdditionalDependencies>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -285,10 +270,10 @@ XNNPACK.lib</AdditionalDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\aidan\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -297,12 +282,12 @@ XNNPACK.lib</AdditionalDependencies>
     </Midl>
     <Link>
       <AdditionalDependencies>fltk\lib\RelWithDebInfo\fltk.lib;comctl32.lib;ws2_32.lib;gdiplus.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib;C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib;C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/fltk/src/../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/RelWithDebInfo/CrowdSecurityMetrics.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/RelWithDebInfo/CrowdSecurityMetrics.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/RelWithDebInfo/CrowdSecurityMetrics.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/RelWithDebInfo/CrowdSecurityMetrics.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -310,11 +295,11 @@ XNNPACK.lib</AdditionalDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\aidan\source\repos\CrowdSecurityMetrics\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/aidan/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aidan/source/repos/CrowdSecurityMetrics -BC:/Users/aidan/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -322,12 +307,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/aidan/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aidan/source/repos/CrowdSecurityMetrics -BC:/Users/aidan/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -335,12 +320,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/aidan/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aidan/source/repos/CrowdSecurityMetrics -BC:/Users/aidan/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -348,12 +333,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/aidan/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aidan/source/repos/CrowdSecurityMetrics -BC:/Users/aidan/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/aidan/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -361,22 +346,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\src\main.cpp" />
+    <ClCompile Include="C:\Users\aidan\source\repos\CrowdSecurityMetrics\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\ZERO_CHECK.vcxproj">
       <Project>{D878DD8D-15DF-3AE6-9999-8DE334D14F13}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk.vcxproj">
+    <ProjectReference Include="C:\Users\aidan\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk.vcxproj">
       <Project>{F8684066-367E-3084-B64F-63E74DB728B6}</Project>
       <Name>fltk</Name>
     </ProjectReference>
