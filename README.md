@@ -20,3 +20,5 @@ This project was built with Visual Studio 2022, it is heavily suggested that it 
 		- _CPU_
 	- Install to `C:\libtorch`
 	- Once a build folder is generated, copy all `.dll` files from `C:\libtorch\lib` to `PROJECT_DIRECTORY/bin/Debug`
+- [Boost](https://www.boost.org/users/download/)
+	- Install to `C:\boost`

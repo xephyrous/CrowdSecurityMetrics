@@ -1,9 +1,0 @@
-namespace CrowdSecurityMetrics
-{
-    [default_interface]
-    runtimeclass READEME : Windows.UI.Xaml.Controls.Page
-    {
-        READEME();
-        Int32 MyProperty;
-    }
-}

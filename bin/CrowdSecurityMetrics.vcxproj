@@ -86,13 +86,19 @@
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\libtorch\include\torch\csrc\api\include;C:\opencv\build\include;C:\libtorch\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\libtorch\include\torch\csrc\api\include;C:\opencv\build\include;C:\libtorch\include;$(IncludePath);C:\boost\boost_1_87_0</IncludePath>
     <LibraryPath>C:\libtorch\lib;C:\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ExecutablePath>$(ExecutablePath)</ExecutablePath>
-    <IncludePath>C:\opencv\build\include;C:\libtorch\include;C:\libtorch\include\torch\csrc\api\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\opencv\build\include;C:\libtorch\include;C:\libtorch\include\torch\csrc\api\include;$(IncludePath);C:\boost\boost_1_87_0</IncludePath>
     <LibraryPath>C:\opencv\build\x64\vc16\lib;C:\libtorch\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);;C:\boost\boost</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);;C:\boost\boost</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
