@@ -1,19 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\aidan\source\repos\CrowdSecurityMetrics\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{F5E78072-CCB0-3B98-8282-94E900B41419}</UniqueIdentifier>
+    <Filter Include="include">
+      <UniqueIdentifier>{27cf395d-ade9-49f1-a2c5-4bb4fc08e236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{175a5d70-1d75-4e39-ac31-7fd3c8e57ebf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\aidan\source\repos\CrowdSecurityMetrics\src\main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\MaskRCNN.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\UIManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MaskRCNN.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
