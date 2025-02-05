@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\Fl_Gl_Choice.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\Fl_Gl_Device_Plugin.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\Fl_Gl_Overlay.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\Fl_Gl_Window.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\freeglut_geometry.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\freeglut_stroke_mono_roman.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\freeglut_stroke_roman.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\freeglut_teapot.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\gl_draw.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\gl_start.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\glut_compatibility.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\glut_font.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Display_Device.cxx">
+      <Filter>Driver Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Graphics_Driver_arci.cxx">
+      <Filter>Driver Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Graphics_Driver_color.cxx">
+      <Filter>Driver Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Graphics_Driver_font.cxx">
+      <Filter>Driver Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Graphics_Driver_line_style.cxx">
+      <Filter>Driver Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Graphics_Driver_rect.cxx">
+      <Filter>Driver Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Graphics_Driver_vertex.cxx">
+      <Filter>Driver Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\WinAPI\Fl_WinAPI_Gl_Window_Driver.cxx">
+      <Filter>Driver Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Display_Device.H">
+      <Filter>Driver Header Files</Filter>
+    </None>
+    <None Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\drivers\OpenGL\Fl_OpenGL_Graphics_Driver.H">
+      <Filter>Driver Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver Header Files">
+      <UniqueIdentifier>{A21123F9-4CCC-36BD-AD6B-3147C0CFF067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F5E78072-CCB0-3B98-8282-94E900B41419}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

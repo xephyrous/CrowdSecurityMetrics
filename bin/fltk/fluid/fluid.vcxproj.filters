@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\fluid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\fluid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\CodeEditor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\StyleParse.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fd_Snap_Action.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fl_Function_Type.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fl_Grid_Type.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fl_Group_Type.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fl_Menu_Type.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fl_Type.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fl_Widget_Type.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fl_Window_Type.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fl_Button_Type.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\Fluid_Image.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\about_panel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\align_widget.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\settings_panel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\autodoc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\code.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\custom_widgets.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\factory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\file.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\fluid_filename.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\function_panel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\mergeback.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\pixmaps.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\shell_command.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\codeview_panel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\template_panel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\undo.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\widget_browser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\widget_panel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-lib.dir\$(Configuration)\ExternalCodeEditor_WIN32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{301EC02D-A4CC-3D9F-8F59-0098CCBBB9C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{EBDDB3B9-9DA6-3969-928C-9555E2F5230F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F5E78072-CCB0-3B98-8282-94E900B41419}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\07263417917bec12ac5cd1ec88c6e0a6\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{50D9A2D6-04C8-3243-93E4-05491B47DDD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6736EB71-C110-3E5D-849E-F323AA801D61}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>fluid-lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">fluid-lib.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">fluid-lib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">fluid-lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">fluid-lib.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">fluid-lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">fluid-lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">fluid-lib.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">fluid-lib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">fluid-lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">fluid-lib.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">fluid-lib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">fluid-lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\..;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\src\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/fltk/fluid/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/fluid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/fltk/fluid/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/fluid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/fltk/fluid/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/fluid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/fltk/fluid/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/fluid/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\CodeEditor.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\StyleParse.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fd_Snap_Action.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Function_Type.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Grid_Type.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Group_Type.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Menu_Type.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Type.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Widget_Type.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Window_Type.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Button_Type.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fluid_Image.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\about_panel.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\align_widget.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\settings_panel.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\autodoc.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\code.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\custom_widgets.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\factory.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\file.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\fluid_filename.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\function_panel.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\mergeback.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\pixmaps.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\shell_command.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\codeview_panel.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\template_panel.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\undo.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\widget_browser.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\widget_panel.cxx" />
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\ExternalCodeEditor_WIN32.cxx" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\CodeEditor.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fd_Snap_Action.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Function_Type.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Grid_Type.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Group_Type.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Menu_Type.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Type.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Widget_Type.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Window_Type.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Button_Type.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fluid_Image.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\StyleParse.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\about_panel.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\align_widget.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\settings_panel.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\autodoc.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\code.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\comments.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\custom_widgets.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\factory.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\file.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\function_panel.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\mergeback.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\print_panel.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\pixmaps.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\shell_command.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\codeview_panel.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\template_panel.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\undo.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\widget_browser.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\widget_panel.h" />
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\ExternalCodeEditor_WIN32.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\ZERO_CHECK.vcxproj">
+      <Project>{D878DD8D-15DF-3AE6-9999-8DE334D14F13}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk.vcxproj">
+      <Project>{F8684066-367E-3084-B64F-63E74DB728B6}</Project>
+      <Name>fltk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk_images.vcxproj">
+      <Project>{259126BA-18A9-3472-8679-652C203B1578}</Project>
+      <Name>fltk_images</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\jpeg\fltk_jpeg.vcxproj">
+      <Project>{FC9DC362-335D-3387-AD38-C53C3F706B33}</Project>
+      <Name>fltk_jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\png\fltk_png.vcxproj">
+      <Project>{ECD632EA-CB9E-35E4-B927-302950C30E69}</Project>
+      <Name>fltk_png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\zlib\fltk_z.vcxproj">
+      <Project>{369203E6-899A-3561-AF9A-0B32C8117713}</Project>
+      <Name>fltk_z</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

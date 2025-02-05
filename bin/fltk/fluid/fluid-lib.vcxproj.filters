@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\CodeEditor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\StyleParse.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fd_Snap_Action.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Function_Type.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Grid_Type.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Group_Type.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Menu_Type.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Type.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Widget_Type.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Window_Type.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Button_Type.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fluid_Image.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\about_panel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\align_widget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\settings_panel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\autodoc.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\code.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\custom_widgets.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\factory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\file.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\fluid_filename.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\function_panel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\mergeback.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\pixmaps.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\shell_command.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\codeview_panel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\template_panel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\undo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\widget_browser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\widget_panel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\ExternalCodeEditor_WIN32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\CodeEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fd_Snap_Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Function_Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Grid_Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Group_Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Menu_Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Widget_Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Window_Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fl_Button_Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\Fluid_Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\StyleParse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\about_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\align_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\settings_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\autodoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\comments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\custom_widgets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\function_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\mergeback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\print_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\pixmaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\shell_command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\codeview_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\template_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\undo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\widget_browser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\widget_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\ExternalCodeEditor_WIN32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fluid\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{301EC02D-A4CC-3D9F-8F59-0098CCBBB9C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F5E78072-CCB0-3B98-8282-94E900B41419}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

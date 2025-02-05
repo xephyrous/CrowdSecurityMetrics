@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5EADE12E-4FC1-35FF-8392-66973F9979A8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\zlib;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\png;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/fltk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FLTKCompatibility.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\FLTK-Functions.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\FLTKConfig.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\cmake_uninstall.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\export.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_add_library.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_debug_pkg.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_debug_var.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_summary.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\install.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\options.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\resources.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\setup.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\variables.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\configh.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fl_config.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fltk-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/fltk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FLTKCompatibility.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\FLTK-Functions.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\FLTKConfig.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\cmake_uninstall.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\export.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_add_library.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_debug_pkg.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_debug_var.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_summary.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\install.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\options.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\resources.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\setup.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\variables.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\configh.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fl_config.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fltk-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/fltk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FLTKCompatibility.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\FLTK-Functions.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\FLTKConfig.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\cmake_uninstall.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\export.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_add_library.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_debug_pkg.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_debug_var.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_summary.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\install.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\options.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\resources.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\setup.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\variables.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\configh.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fl_config.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fltk-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/fltk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/fltk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FLTKCompatibility.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\FLTK-Functions.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\FLTKConfig.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\cmake_uninstall.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\export.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_add_library.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_debug_pkg.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_debug_var.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\fl_summary.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\install.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\options.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\resources.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\setup.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\CMake\variables.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\configh.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fl_config.cmake.in;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\fltk-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\ZERO_CHECK.vcxproj">
+      <Project>{D878DD8D-15DF-3AE6-9999-8DE334D14F13}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk.vcxproj">
+      <Project>{F8684066-367E-3084-B64F-63E74DB728B6}</Project>
+      <Name>fltk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fltk-options\fltk-options.vcxproj">
+      <Project>{3D044FE7-39BC-338E-86A5-CE70EE23D203}</Project>
+      <Name>fltk-options</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fltk-options\fltk-options-cmd.vcxproj">
+      <Project>{9CDB066F-39B8-3F32-9A08-07A77AFFFD70}</Project>
+      <Name>fltk-options-cmd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk_forms.vcxproj">
+      <Project>{FC38C90E-483F-3799-95E5-692C5270502A}</Project>
+      <Name>fltk_forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk_gl.vcxproj">
+      <Project>{DB07DF59-DBBE-3172-AD2B-902A2C2901BB}</Project>
+      <Name>fltk_gl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk_images.vcxproj">
+      <Project>{259126BA-18A9-3472-8679-652C203B1578}</Project>
+      <Name>fltk_images</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\jpeg\fltk_jpeg.vcxproj">
+      <Project>{FC9DC362-335D-3387-AD38-C53C3F706B33}</Project>
+      <Name>fltk_jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\png\fltk_png.vcxproj">
+      <Project>{ECD632EA-CB9E-35E4-B927-302950C30E69}</Project>
+      <Name>fltk_png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\zlib\fltk_z.vcxproj">
+      <Project>{369203E6-899A-3561-AF9A-0B32C8117713}</Project>
+      <Name>fltk_z</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid.vcxproj">
+      <Project>{29C16C54-BE68-338C-871C-9DEA5574E615}</Project>
+      <Name>fluid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-cmd.vcxproj">
+      <Project>{CF9180F7-0A49-3AA5-871C-195FB2F62498}</Project>
+      <Name>fluid-cmd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

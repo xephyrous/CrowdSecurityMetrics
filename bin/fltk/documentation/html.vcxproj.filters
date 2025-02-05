@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3c38dd1dbdc4c7dce44c644493c7c219\Doxyfile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\79c2b8ff5a6b3a9c8bdf25ff4aee070a\html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk\documentation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\documentation\CMakeFiles\html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{50D9A2D6-04C8-3243-93E4-05491B47DDD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
