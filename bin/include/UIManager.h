@@ -1,7 +1,9 @@
 #pragma once
 
 #include <string>
+#include <unordered_map>
 
+#include "../Compat.h"
 #include "FL/Fl.H"
 #include "FL/Fl_Window.H"
 
@@ -25,6 +27,7 @@ namespace UI {
 		Manager() = delete;
 		Manager(const Manager&) = delete;
 		Manager& operator=(const Manager&) = delete;
+		~Manager();
 
 		static void init();
 		static void run();

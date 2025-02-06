@@ -4,10 +4,16 @@
 #include <FL/Fl_Button.h>
 #include <FL/Fl_Menu_Bar.H>
 
+#include "../Compat.h"
+
 /**
  * \brief Initializes the main application window the the set WindowOptions
  */
 void UI::Manager::init() {
+	// Custom styling
+	Fl::scheme("gtk+");
+	loadCustomFonts();
+
 	// Initialize window
 	m_window = new Fl_Window(
 		windowOptions.x, windowOptions.y, 
@@ -26,6 +32,7 @@ void UI::Manager::initInterfaceView() {
 	m_views[Views::Interface] = new Fl_Group(0, 30, 1200, 570, "Interface View");
 
 	Fl_Button* btn = new Fl_Button(0, 30, 50, 50, "A");
+	btn->labelfont(fontIndexes["Noto Sans bold"]);
 	btn->callback([](Fl_Widget*, void* data) {
 		UI::Manager::switchView(Views::Sources);
 		}, nullptr);
@@ -38,6 +45,7 @@ void UI::Manager::initSourcesView() {
 	m_views[Views::Sources] = new Fl_Group(0, 30, 1200, 570, "Sources View");
 
 	Fl_Button* btn = new Fl_Button(0, 30, 50, 50, "B");
+	btn->labelfont(fontIndexes["Noto Sans bold"]);
 	btn->callback([](Fl_Widget*, void* data) {
 		UI::Manager::switchView(Views::Interface);
 	}, nullptr);
@@ -70,4 +78,8 @@ void UI::Manager::run() {
 	} catch (const std::exception& e) {
 		(void) fprintf(stderr, "Failed to initialize application window!\n%s", e.what());
 	}
+}
+
+UI::Manager::~Manager() {
+	unloadCustomFonts();
 }

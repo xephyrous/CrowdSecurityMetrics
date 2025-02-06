@@ -32,5 +32,8 @@
     <ClInclude Include="include\MaskRCNN.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="Compat.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
