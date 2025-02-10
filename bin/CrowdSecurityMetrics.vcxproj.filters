@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\CMakeLists.txt" />
+    <CustomBuild Include="$(ProjectDir)\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
@@ -9,6 +9,12 @@
     </Filter>
     <Filter Include="src">
       <UniqueIdentifier>{175a5d70-1d75-4e39-ac31-7fd3c8e57ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\views">
+      <UniqueIdentifier>{3d868a44-2e1e-4516-a346-acd723bb63ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views">
+      <UniqueIdentifier>{cf4798db-bea7-4322-beb5-addfd1ea1012}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,6 +30,9 @@
     <ClCompile Include="src\UIManager.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="InterfaceView.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\UIManager.h">
@@ -34,6 +43,12 @@
     </ClInclude>
     <ClInclude Include="Compat.h">
       <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceView.h">
+      <Filter>include\views</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>include\views</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\bin\fltk;$(ProjectDir)\fltk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\bin\fltk;$(ProjectDir)\fltk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\bin\fltk;$(ProjectDir)\fltk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk;C:\Users\alexa\source\repos\CrowdSecurityMetrics\fltk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\bin\fltk;$(ProjectDir)\fltk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\CMakeLists.txt">
+    <CustomBuild Include="$(ProjectDir)\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule $(ProjectDir)/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -S$(ProjectDir) -B$(ProjectDir)/bin --check-stamp-file $(ProjectDir)/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule $(ProjectDir)/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -S$(ProjectDir) -B$(ProjectDir)/bin --check-stamp-file $(ProjectDir)/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule $(ProjectDir)/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -S$(ProjectDir) -B$(ProjectDir)/bin --check-stamp-file $(ProjectDir)/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(ProjectDir)\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/alexa/source/repos/CrowdSecurityMetrics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule $(ProjectDir)/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alexa/source/repos/CrowdSecurityMetrics -BC:/Users/alexa/source/repos/CrowdSecurityMetrics/bin --check-stamp-file C:/Users/alexa/source/repos/CrowdSecurityMetrics/bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -S$(ProjectDir) -B$(ProjectDir)/bin --check-stamp-file $(ProjectDir)/bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,65 +159,65 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeCCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;$(ProjectDir)\bin\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(ProjectDir)\bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\ZERO_CHECK.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\ZERO_CHECK.vcxproj">
       <Project>{D878DD8D-15DF-3AE6-9999-8DE334D14F13}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\CrowdSecurityMetrics.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\CrowdSecurityMetrics.vcxproj">
       <Project>{8237EEBF-6047-3DB7-BBAF-055F3A4C8A10}</Project>
       <Name>CrowdSecurityMetrics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\src\fltk.vcxproj">
       <Project>{F8684066-367E-3084-B64F-63E74DB728B6}</Project>
       <Name>fltk</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fltk-options\fltk-options.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\fltk-options\fltk-options.vcxproj">
       <Project>{3D044FE7-39BC-338E-86A5-CE70EE23D203}</Project>
       <Name>fltk-options</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fltk-options\fltk-options-cmd.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\fltk-options\fltk-options-cmd.vcxproj">
       <Project>{9CDB066F-39B8-3F32-9A08-07A77AFFFD70}</Project>
       <Name>fltk-options-cmd</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk_forms.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\src\fltk_forms.vcxproj">
       <Project>{FC38C90E-483F-3799-95E5-692C5270502A}</Project>
       <Name>fltk_forms</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk_gl.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\src\fltk_gl.vcxproj">
       <Project>{DB07DF59-DBBE-3172-AD2B-902A2C2901BB}</Project>
       <Name>fltk_gl</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\src\fltk_images.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\src\fltk_images.vcxproj">
       <Project>{259126BA-18A9-3472-8679-652C203B1578}</Project>
       <Name>fltk_images</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\jpeg\fltk_jpeg.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\jpeg\fltk_jpeg.vcxproj">
       <Project>{FC9DC362-335D-3387-AD38-C53C3F706B33}</Project>
       <Name>fltk_jpeg</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\png\fltk_png.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\png\fltk_png.vcxproj">
       <Project>{ECD632EA-CB9E-35E4-B927-302950C30E69}</Project>
       <Name>fltk_png</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\zlib\fltk_z.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\zlib\fltk_z.vcxproj">
       <Project>{369203E6-899A-3561-AF9A-0B32C8117713}</Project>
       <Name>fltk_z</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\fluid\fluid.vcxproj">
       <Project>{29C16C54-BE68-338C-871C-9DEA5574E615}</Project>
       <Name>fluid</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\alexa\source\repos\CrowdSecurityMetrics\bin\fltk\fluid\fluid-cmd.vcxproj">
+    <ProjectReference Include="$(ProjectDir)\bin\fltk\fluid\fluid-cmd.vcxproj">
       <Project>{CF9180F7-0A49-3AA5-871C-195FB2F62498}</Project>
       <Name>fluid-cmd</Name>
     </ProjectReference>
